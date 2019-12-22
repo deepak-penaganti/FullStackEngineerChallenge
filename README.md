@@ -34,6 +34,6 @@ Design a web application that allows employees to submit feedback toward each ot
 
 ## What are we looking for? What does this prove?
 * Assumptions you make given limited requirements
-* Technology and design choices
-* Identify areas of your strengths
+* Technology and design choices - Reactjs, Redux, Redux Saga, Nodejs, express, CSS Grid
+* Identify areas of your strengths - Frontend fullstack => Web Technologies, Web Frameworks, Nodejs + Persistance
 * This is not a pass or fail test, this will serve as a common ground that we can deep dive together into specific issues

@@ -1,0 +1,34 @@
+.pa__employeelist {
+  grid-template-columns: auto;
+
+  .headers {
+      grid-template-columns: 64px auto;
+  }
+
+  h4 {
+    grid-column: 1/3;
+  }
+
+  h6 {
+    padding: 0 8px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .add-employee {
+      grid-template-columns: minmax(0, 240px) min-content;
+      align-items: center;
+
+      input {
+          padding: 8px;
+          margin: 0 8px;
+          border-radius: 3px;
+          border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      }
+  }
+
+  .list {
+      grid-template-columns: auto min-content;
+      align-items: center;
+  }
+}

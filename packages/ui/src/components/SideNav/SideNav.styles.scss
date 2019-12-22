@@ -1,0 +1,28 @@
+nav.pa__sidenav {
+  grid-area: navigation;
+  min-width: 240px;
+  padding: 0;
+  border-right: 1px inset rgba(0, 0, 0, 0.8);
+
+  ul {
+    list-style: none;
+    grid-template-columns: auto;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      padding: 8px;
+
+      &,
+      &:visited,
+      &:active {
+        text-decoration: none;
+        color: #333;
+      }
+      &.active-link {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+      }
+    }
+  }
+}

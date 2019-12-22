@@ -1,0 +1,12 @@
+.pa__employeedetails {
+    grid-template-columns: min-content auto;
+  .emp-id,
+  .emp-name {
+    padding: 12px 8px;
+    box-sizing: border-box;
+  }
+
+  .emp-id {
+      width: 64px;
+  }
+}

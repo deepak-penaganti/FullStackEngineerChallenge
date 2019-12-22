@@ -1,0 +1,19 @@
+.pa {
+  &__homepage--container {
+    height: 100%;
+    grid-template-columns: min-content auto min-content;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas:
+      "header header"
+      "navigation maincontent"
+      "footer footer";
+
+    main {
+      grid-area: maincontent;
+      padding: 8px;
+    }
+    footer {
+      grid-area: footer;
+    }
+  }
+}
